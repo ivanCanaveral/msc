@@ -6,13 +6,15 @@ authors = ["ivanCanaveral <canaveral.ivan@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.10,<3.11"
 jupyterlab = "^3.5.0"
 matplotlib = "^3.6.2"
 seaborn = "^0.12.1"
 sklearn = "^0.0.post1"
 pandas = "^1.5.2"
 pyarrow = "^10.0.1"
+tensorflow = "^2.11.0"
+tensorflow-datasets = "^4.8.0"
 
 [tool.poetry.dev-dependencies]
 
